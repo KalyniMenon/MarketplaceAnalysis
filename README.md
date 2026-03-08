@@ -10,14 +10,14 @@ This project analyzes ~15,000 Airbnb listings across two major European cities t
 
 
 ## Tech Stack
-
+```
  Layer                       Tool 
 
  Data Cleaning & Loading     Python (Pandas, SQLAlchemy) 
  Data Storage                MySQL 
  Analytics & KPIs            SQL (Views) 
  Visualization               Power BI 
-
+```
 
 
 ## Architecture
