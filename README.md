@@ -81,11 +81,11 @@ Power BI Dashboard
 
  KPI                           Description  
 
- Average Price                 Mean nightly price per city 
- Occupancy Rate                % of days a listing is booked (1 - availability) 
- Top Neighbourhoods            Ranked by average nightly price |
- Room Type Distribution        % breakdown of Entire home vs Private room etc. 
- Estimated Monthly Revenue     avg_price × occupancy_days per month per listing 
+- Average Price                 Mean nightly price per city 
+- Occupancy Rate                % of days a listing is booked (1 - availability) 
+- Top Neighbourhoods            Ranked by average nightly price |
+- Room Type Distribution        % breakdown of Entire home vs Private room etc. 
+- Estimated Monthly Revenue     avg_price × occupancy_days per month per listing 
 
 
 
