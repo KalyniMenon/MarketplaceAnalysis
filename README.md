@@ -5,7 +5,7 @@ An end-to-end analytics pipeline analyzing Airbnb marketplace performance across
 
 ## Project Overview
 
-This project analyzes ~15,000 Airbnb listings across two major European cities to uncover pricing trends, occupancy patterns, and revenue potential by neighborhood. The goal is to simulate a real-world marketplace analytics workflow — from raw data ingestion to executive dashboards.
+This project analyzes ~15,000 Airbnb listings across two major European cities to uncover pricing trends, occupancy patterns, and revenue potential by neighborhood. The goal is to simulate a real-world marketplace analytics workflow  from raw data ingestion to executive dashboards.
 
 
 
@@ -23,37 +23,27 @@ This project analyzes ~15,000 Airbnb listings across two major European cities t
 ## Architecture
 
 
-Data Source
-   ↓
-Inside Airbnb CSV datasets
+Data Source -> Inside Airbnb CSV datasets
 
-Data Processing
-   ↓
-Python (Pandas)
-• Data cleaning
-• Schema normalization
-• Load to MySQL
+Data Processing -> Python (Pandas)
+- Data cleaning
+- Schema normalization
+- Load to MySQL
 
-Data Storage
-   ↓
-MySQL relational database
-• listings table
-• calendar table
+Data Storage -> MySQL relational database
+- listings table
+- calendar table
 
-Analytics Layer
-   ↓
-SQL Views
-• city_summary
-• room_type_distribution
-• top_neighbourhoods
-• revenue_potential
+Analytics Layer -> SQL Views
+- city_summary
+- room_type_distribution
+- top_neighbourhoods
+- revenue_potential
 
-Visualization Layer
-   ↓
-Power BI Dashboard
-• Executive overview
-• City-level analysis
-• Revenue insights
+Visualization Layer -> Power BI Dashboard
+- Executive overview
+- City-level analysis
+- Revenue insights
 
 ## Dashboard Preview
 
