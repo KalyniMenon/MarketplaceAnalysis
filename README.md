@@ -22,28 +22,39 @@ This project analyzes ~15,000 Airbnb listings across two major European cities t
 
 ## Architecture
 
+```
+Data Source
+   ↓
+Inside Airbnb CSV datasets
 
-Data Source -> Inside Airbnb CSV datasets
+Data Processing
+   ↓
+Python (Pandas)
+• Data cleaning
+• Schema normalization
+• Load to MySQL
 
-Data Processing -> Python (Pandas)
-- Data cleaning
-- Schema normalization
-- Load to MySQL
+Data Storage
+   ↓
+MySQL relational database
+• listings table
+• calendar table
 
-Data Storage -> MySQL relational database
-- listings table
-- calendar table
+Analytics Layer
+   ↓
+SQL Views
+• city_summary
+• room_type_distribution
+• top_neighbourhoods
+• revenue_potential
 
-Analytics Layer -> SQL Views
-- city_summary
-- room_type_distribution
-- top_neighbourhoods
-- revenue_potential
-
-Visualization Layer -> Power BI Dashboard
-- Executive overview
-- City-level analysis
-- Revenue insights
+Visualization Layer
+   ↓
+Power BI Dashboard
+• Executive overview
+• City-level analysis
+• Revenue insights
+```
 
 ## Dashboard Preview
 
@@ -68,7 +79,7 @@ Visualization Layer -> Power BI Dashboard
 ---
 
 ## KPIs Calculated
-
+```
  KPI                           Description  
 
 - Average Price                 Mean nightly price per city 
@@ -76,7 +87,7 @@ Visualization Layer -> Power BI Dashboard
 - Top Neighbourhoods            Ranked by average nightly price |
 - Room Type Distribution        % breakdown of Entire home vs Private room etc. 
 - Estimated Monthly Revenue     avg_price × occupancy_days per month per listing 
-
+```
 
 
 ## Dashboard Pages
