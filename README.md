@@ -110,7 +110,7 @@ Visualization Layer -> Power BI Dashboard
 
 ## Project Structure
 
-
+```
 MarketplaceAnalysis/
 │
 ├── Amsterdam/
@@ -125,7 +125,7 @@ MarketplaceAnalysis/
 ├── phase2_kpi_views.sql      # Phase 2: KPI SQL views
 ├── MarketplaceAnalysis.pbix  # Power BI dashboard
 └── README.md
-
+```
 
 
 
